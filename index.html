@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF5-DIl4LYEBhakV2YATMrxJEiXYTROEAYxg&usqp=CAU">
+    <title>shop thời trang nam</title>
+    <link rel="stylesheet" type="text/css" href="product.css">
+
+</head>
+<body>
+    <marquee>
+        <p style="color: rgb(207, 105, 9); font: size large 50px;"> CHÀO MỪNG BẠN ĐẾN VỚI SHOP THỜI TRANG NAM - HÂN HẠNH ĐƯỢC ĐÓN CHÀO</p>
+    </marquee>
+    
+    <div class="container">
+        <div class="nav">
+            <div class="logo">
+                <img class="logo" src="https://i.pinimg.com/originals/7c/89/90/7c89904c65970d2581ce4b5a392f7712.gif">
+            </div>
+            <div class="nav_menu">
+                <ul>
+                    <li>
+                        <a href="">Trang chủ</a>
+                    </li>
+                    <li>
+                        <a href="">Sản Phẩm</a>
+                    </li>
+                    <li>
+                        <a href="">Liên hệ</a>
+                    </li>
+                    <li>
+                        <a href="">Thông Báo</a>
+                    </li>
+                    <li>
+                        <a href="">Tìm kiếm:</a>
+                    </li>
+                    <li>
+                        <input type="" name="" oninput="search(event)"
+                            placeholder="Tìm Kiếm Trên shop">
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <div class="information">
+                <h2 class="heading - 2">Add New Clother</h2>
+                <div class="add-new-shirt">
+                    <div class="form-group">
+                        <label for="ClothesID">ID: </label>
+                        <input class="form-control" id="btn_id" type="text" name="ClothesID" disabled>
+                    </div>
+                    <div class="form-group">
+                        <label for="ClothesName">Name: </label>
+                        <input class="form-control" id="btn_name" type="text" name="ClothesName" >
+                    </div>
+                    <div class="form-group">
+                        <label for="price">Price: </label>
+                        <input class="form-control" id="btn_price" type="number" name="price">
+                    </div>
+                    <div class="form-group">
+                        <label for="quantity">Quantity: </label>
+                        <input class="form-control" id="btn_quantity" type="number" name="quantity" >
+                    </div>
+                    <div class="form-group">
+                        <label for="photo">Photo: </label>
+                        <input class="form-control" id="btn_photo" type="url" name="photo">
+                    </div>
+                    <div class="btn_save">
+                        <button class="brn btn-primary" type="button" onclick="save(id)">Save</button>
+                        <button class="brn btn-primary"type="button" onclick="reset()">Reset</button>
+                        <button class="brn btn-primary"type="button" onclick="add()">Add</button>
+                    </div>
+            </div>
+            <div class="product">
+                <h2 class="heading-2">Display all Clother</h2>
+                <table class="table2">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Photo</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                            <th>Into money</th>
+                            <th >Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
+<script src="index.js"></script>
